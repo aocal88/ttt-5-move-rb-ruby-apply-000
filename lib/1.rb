@@ -1,5 +1,8 @@
 
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+array = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -9,14 +12,6 @@ def display_board(board)
 end
 
 
+board = gets.strip
 
-# code your input_to_index and move method here!
-def input_to_index(user_input)
-  index = user_input.to_i - 1
-end
-
-
-def move(board, index, value = "X")
-  board[index] = value
-  board
-end
+display_board(board)
