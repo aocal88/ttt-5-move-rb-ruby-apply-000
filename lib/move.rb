@@ -20,4 +20,4 @@ def move(board, index, value)
   board[index] = value
 end
 
-puts board[2]
+puts board[1]
